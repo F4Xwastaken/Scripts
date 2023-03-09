@@ -35,7 +35,7 @@ end)
 
 
 
-MainSection:NewButton(Leftalt + click delte", "If you hold down left alt and click you delete", function()
+MainSection:NewButton("Leftalt + click delete", "If you hold down left alt and click you delete", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Xwastaken/Scripts/main/leftaltdelete.lua"))();
 end)
 
