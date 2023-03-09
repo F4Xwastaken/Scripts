@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("FX fucks Fnaf Coop Made by F4X#2106", "GrapeTheme")
+local Window = Library.CreateLib("FX fucks Fnaf Coop Made by F4X#2106", "DarkTheme")
 
 
 
@@ -35,6 +35,9 @@ end)
 
 
 
+MainSection:NewButton(Leftalt + click delte", "If you hold down left alt and click you delete", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Xwastaken/Scripts/main/leftaltdelete.lua"))();
+end)
 
 
 
