@@ -56,7 +56,7 @@ local Games = Games:NewSection("Game Scripts by F4X")
 
 
 Games:NewButton("Fnaf Coop", "Fnaf coop script made by F4X", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Xwastaken/Scripts/main/FX%20fucks%20fnaf%20coop.lua"))();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Xwastaken/Scripts/main/Fnaf%20coop%20v1.lua"))();
 end)
 
 Games:NewButton("Yba:Nu", "Yba:nu script made by F4X", function()
