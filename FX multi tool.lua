@@ -91,3 +91,10 @@ end)
 local Credits = Window:NewTab("Credits")
 
 local Credits = Credits:NewSection("Made By F4X#2106/@Edne961")
+
+
+local h = Instance.new("Hint")
+h.Parent = Workspace 
+h.Text = "Made By F4X#2106/Edne961."
+wait(10)
+h:Remove()
