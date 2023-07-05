@@ -39,6 +39,10 @@ MainSection:NewButton("Leftalt + click delete", "If you hold down left alt and c
     loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Xwastaken/Scripts/main/leftaltdelete.lua"))();
 end)
 
+MainSection:NewButton("Btools", "Gives you Btools", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))();
+end)
+
 
 
 
