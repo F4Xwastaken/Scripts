@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("FX fucks Ktkia51 Made by F4X#2106", "DarkTheme")
+local Window = Library.CreateLib("FX fucks YbaNU Made by F4X#2106", "DarkTheme")
 
 
 local colors = {
