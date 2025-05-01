@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("FX Multi Tool Made by F4X#2106", "BloodTheme")
+local Window = Library.CreateLib("FX Multi Tool Made by gitgudnuubs", "BloodTheme")
 
 
 
@@ -52,22 +52,24 @@ end)
 
 --Games
 local Games = Window:NewTab("Games")
-local Games = Games:NewSection("Game Scripts by F4X")
+local Games = Games:NewSection("Game Scripts by gitgudnuubs")
 
 
-Games:NewButton("Fnaf Coop", "Fnaf coop script made by F4X", function()
+Games:NewButton("Fnaf Coop", "Fnaf coop script made by gitgudnuubs", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Xwastaken/Scripts/main/Fnaf%20coop%20v1.lua"))();
 end)
 
-Games:NewButton("Yba:Nu", "Yba:nu script made by F4X", function()
+Games:NewButton("Yba:Nu", "Yba:nu script made by gitgudnuubs", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Xwastaken/Scripts/main/Ybanu.lua"))();
 end)
 
-Games:NewButton("Ktkia51", "Kill the killers in area 51 script made by F4X", function()
+Games:NewButton("Ktkia51", "Kill the killers in area 51 script made by gitgudnuubs", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Xwastaken/Scripts/main/FX%20Ktkia51.lua"))();
 end)
 
-
+Games:NewButton("RoCitizens", "Kill the killers in area 51 script made by gitgudnuub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Xwastaken/Scripts/refs/heads/main/fxrocitizens.lua"))();
+end)
 
 
 
@@ -90,11 +92,11 @@ end)
 --Credits
 local Credits = Window:NewTab("Credits")
 
-local Credits = Credits:NewSection("Made By F4X#2106/@Edne961")
+local Credits = Credits:NewSection("Made By gitgudnuub")
 
 
 local h = Instance.new("Hint")
 h.Parent = Workspace 
-h.Text = "Made By F4X#2106/Edne961."
+h.Text = "Made By gitgudnuub"
 wait(10)
 h:Remove()
